@@ -1,4 +1,4 @@
-import dotenv from "./mod.ts"
+import dotenv from "https://raw.githubusercontent.com/AM-77/deno-dotenv/master/mod.ts"
 
 console.log("[+] Read env vars from the default file >> .env")
 const env = dotenv()
