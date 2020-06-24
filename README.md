@@ -35,8 +35,8 @@ const env = dotenv("the/env/file/path")
 ```
 ---
 **NOTE**
+
 As a best practice, you should name `.env` and place it a the root folder.
----
 
 
 ## Run test 
@@ -50,7 +50,7 @@ $ deno run --allow-read --allow-env test.ts
 [+] Read env vars from the default file >> .env
 PASSWORD  1234567
 KEY  12T1S654Ts6sc5fsd4Q6np9dx2A
-``` 
+```
 
 the `test.example.ts`: 
 ```bash
@@ -59,4 +59,4 @@ $ deno run --allow-read --allow-env test.example.ts
 [+] Read env vars from a custom file >> .env.example
 HOST  127.0.0.1
 PORT  7700
-``` 
+```
